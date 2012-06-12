@@ -11,10 +11,15 @@ Add this line to your application's Gemfile:
 ## Task:
 
 1. Routes group by controller
+
    $ bundle exec rake dev_task:nroutes
+
 2. Conver css -> scss
+
    input - css
+
    output - scss
+
    prefix - namespace for assets
 
    $ bundle exec rake dev_task:css2scss[input,output,prefix]

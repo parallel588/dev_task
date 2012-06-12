@@ -1,4 +1,4 @@
-# Dev::Task
+# DevTask
 
 TODO: Write a gem description
 
@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'dev-task'
+    gem 'dev_task'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install dev-task
+    $ gem install dev_task
 
 ## Usage
 

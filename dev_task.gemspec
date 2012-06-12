@@ -19,4 +19,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency(%q<rake>, [">= 0"])
   gem.add_dependency(%q<sass>, ["= 3.1.10"])
 
+  gem.add_development_dependency 'rspec', '~> 2.10.0'
+
 end

@@ -8,17 +8,16 @@ Add this line to your application's Gemfile:
 
     gem 'dev_task'
 
-And then execute:
+## Task:
 
-    $ bundle
+1. Routes group by controller
+   $ bundle exec rake dev_task:nroutes
+2. Conver css -> scss
+   input - css
+   output - scss
+   prefix - namespace for assets
 
-Or install it yourself as:
-
-    $ gem install dev_task
-
-## Usage
-
-TODO: Write usage instructions here
+   $ bundle exec rake dev_task:css2scss[input,output,prefix]
 
 ## Contributing
 
